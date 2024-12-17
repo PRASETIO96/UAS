@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Web Komunitas</title>
+    <link rel="shortcut icon" href="img/coffee-cup.png" type="image/x-icon" />
+    <style>
+      header {
+        background-color: #795548;
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+      }
+      img {
+        width: px;
+
+      }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      footer {
+        background-color: #795548;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .row {
+        display: flex;
+        height: 75vh; /* Tinggi total dari row */
+      }
+
+      .column {
+        width: 50%;
+        padding: 15px;
+        margin: 5px;
+        background-color: rgb(249, 246, 244);
+      }
+      .column-1{
+        flex: 1;
+      }
+      .column-2 {
+        flex:3;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        padding: 10px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      li:hover {
+        background-color: #795548
+        ;
+        color: white;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit; /
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      footer {
+        padding: 15px;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        background-color: #795548;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="img/icons8-cafe-building-50.png" alt="Logo" />
+      <h1>Coffee Anthusias</h1>
+    </header>
+
+    <div class="row">
+      <div class="column column-1">
+        <ul>
+          <li><a href="p9.html" target="iframe">Rating Coffee Shop</a></li>
+          <li><a href="p10.html" target="iframe">Profile Card</a></li>
+          <li><a href="p11.html" target="iframe">Form Pemesanan</a></li>
+        </ul>
+      </div>
+      <div class="column column-2">
+        <iframe name="iframe"></iframe>
+      </div>
+    </div>
+
+    <footer>
+      Copyright. Coffee HorizonU 2024 Pengembang Prasetio
+      <a
+        href="https://www.instagram.com/xprszz/profilecard/?igsh=MTVnZjd3cHNtYWp5ZA=="
+        target="_blank"
+        >|| Media Sosial</a
+      >
+    </footer>
+  </body>
+</html>
